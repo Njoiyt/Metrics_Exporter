@@ -1,0 +1,8 @@
+version: "3.5"
+services:
+  dappnodedev.public.dappnode.eth:
+    build: ./
+    image: "dappnodedev.public.dappnode.eth:0.1.0"
+    restart: unless-stopped
+    environment:
+      - API_KEY=

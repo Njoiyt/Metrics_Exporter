@@ -1,0 +1,14 @@
+{
+  "version": "1",
+  "fields": [
+    {
+      "id": "APIKey",
+      "target": {
+        "type": "environment",
+        "name": "API_KEY"
+      },
+      "title": "API",
+      "description": "Enter your API Key from Beaconcha.in to continue"
+    }
+  ]
+}

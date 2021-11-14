@@ -1,0 +1,8 @@
+version: "0.0.1"
+services:
+  dappnodedev.public.dappnode.eth:
+    build: 
+    image: "dappnodedev.public.dappnode.eth:0.0.1"
+    restart: unless-stopped
+    args:
+      API_KEY: kjkdfkj
