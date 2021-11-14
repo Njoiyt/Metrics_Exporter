@@ -9,6 +9,5 @@ ENTRYPOINT [ "sh", "-c", "exec ./eth2-client-metrics-exporter-linux-amd64 \
   --beaconnode.type=prysm \
   --beaconnode.address=http://beacon-chain.prysm.dappnode:8080/metrics \
   --validator.type=prysm \
-  --debug = true \ 	
   --validator.address=http://prysm.dappnode:8081/metrics \
 "]
