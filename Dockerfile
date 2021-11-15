@@ -1,13 +1,12 @@
-FROM alpine:3.12
-RUN apk --no-cache update
-RUN apk --no-cache upgrade
-RUN apk --no-cache add bash
-RUN apk --no-cache add ca-certificates
-RUN update-ca-certificates
-RUN opkg-install curl
-RUN opkg-install wget
-RUN curl -L https://raw.githubusercontent.com/gobitfly/eth2-client-metrics-exporter/master/.script/install.sh | bash
-ENTRYPOINT [ "sh", "-c", "exec ./eth2-client-metrics-exporter-linux-amd64 \
+FROM alpine:latest
+RUN apk update
+RUN apk upgrade
+RUN apk add git
+RUN apk add make
+RUN apk add go
+RUN git clone https://github.com/gobitfly/eth2-client-metrics-exporter.git
+RUN make --directory=eth2-client-metrics-exporter
+ENTRYPOINT [ "sh", "-c", "exec ./eth2-client-metrics-exporter/bin/eth2-client-metrics-exporter-linux-amd64 \
   --server.address=https://beaconcha.in/api/v1/client/metrics?apikey=$API_KEY \
   --beaconnode.type=prysm \
   --beaconnode.address=http://beacon-chain.prysm.dappnode:8080/metrics \
