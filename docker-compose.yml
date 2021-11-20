@@ -5,4 +5,4 @@ services:
     image: "metricsexporter.dnp.dappnode.eth:0.0.1"
     restart: unless-stopped
     environment:
-      - API_KEY=
+      API_KEY: ""
