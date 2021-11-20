@@ -6,7 +6,7 @@
   "description": "Beaconcha.in validator monitoring app for Dappnode, PRYSM ONLY",
   "type": "service",
   "chain": "ethereum2-beacon-chain-prysm",
-  "author": "The Gray Brothers",
+  "author": "Original by gobitfly (https://github.com/gobitfly/eth2-client-metrics-exporter.git) Dappnode pkg created by the Gray Brothers",
   "categories": ["Developer tools"],
   "keywords": [
     "beaconcha.in,monitor,stats"
@@ -17,7 +17,7 @@
   "contributors": [
     "Brent Gray <https://discordapp.com/users/Nsr#3427> (https://github.com/Njoiyt)",
     "Brandon Gray <https://discordapp.com/users/XsN#9399> (https://github.com/vlcmstne)",
-    "Butta <https://discordapp.com/users/Butta#8883>"
+    "gobitfly <https://discordapp.com/users/Butta#8883> (https://github.com/gobitfly/eth2-client-metrics-exporter.git)"
   ],
   "bugs": {
     "url": "https://github.com/Njoiyt/Metrics_Exporter/issues"
