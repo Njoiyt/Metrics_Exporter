@@ -2,7 +2,7 @@ FROM amd64/alpine:latest
 RUN apk update
 RUN apk upgrade
 RUN apk add wget
-RUN wget https://github.com/Njoiyt/Metrics_Exporter/blob/Alpine/alpine_exporter?raw=true
+RUN wget https://github.com/Njoiyt/Metrics_Exporter/blob/master/alpine_exporter?raw=true
 RUN mv alpine_exporter?raw=true alpine_exporter
 RUN chmod +x alpine_exporter
 ENTRYPOINT [ "sh", "-c", "exec ./alpine_exporter \
