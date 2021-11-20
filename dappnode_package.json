@@ -1,5 +1,5 @@
 {
-  "name": "metricsExporter.dnp.dappnode.eth",
+  "name": "metrics-exporter.dnp.dappnode.eth",
   "version": "0.1.0",
   "description": "Beaconcha.in validator monitoring app for Dappnode, PRYSM ONLY",
   "type": "service",
@@ -7,6 +7,10 @@
   "categories": ["Developer tools"],
   "keywords": [
     "beaconcha.in,monitor,stats"
+  ],
+  "contributors": [
+    "Brent Gray <eduadiez@gmail.com> (https://github.com/Njoiyt)",
+    "Brandon Gray <dapplion@giveth.io> (https://github.com/vlcmstne)"
   ],
   "repository": {
     "type": "git",
