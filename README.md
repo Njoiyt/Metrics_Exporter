@@ -1,7 +1,7 @@
 # DAppnodePackage-metrics_exporter
 
 This package runs latest beaconcha.in metrics exporter on your machine 
-(curl -L https://raw.githubusercontent.com/gobitfly/eth2-client-metrics-exporter/master/.script/install.sh | bash).
+
 
 ## How to run this package
 
