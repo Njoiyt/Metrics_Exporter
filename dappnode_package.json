@@ -1,18 +1,27 @@
 {
   "name": "metrics-exporter.dnp.dappnode.eth",
-  "version": "0.1.0",
+  "version": "0.0.1",
+  "upstreamVersion": "v0.0.1",
+  "shortDescription": "monitoring app for Dappnode Machine",
   "description": "Beaconcha.in validator monitoring app for Dappnode, PRYSM ONLY",
   "type": "service",
+  "chain": "ethereum2-beacon-chain-prysm",
   "author": "The Gray Brothers",
   "categories": ["Developer tools"],
   "keywords": [
     "beaconcha.in,monitor,stats"
   ],
+  "links": {
+    "readme": "https://github.com/Njoiyt/Metrics_Exporter"
+  },
   "contributors": [
     "Brent Gray <https://discordapp.com/users/Nsr#3427> (https://github.com/Njoiyt)",
     "Brandon Gray <https://discordapp.com/users/XsN#9399> (https://github.com/vlcmstne)",
     "Butta <https://discordapp.com/users/Butta#8883>"
   ],
+  "bugs": {
+    "url": "https://github.com/Njoiyt/Metrics_Exporter/issues"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/Njoiyt/Metrics_Exporter.git"

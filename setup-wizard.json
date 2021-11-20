@@ -1,8 +1,8 @@
 {
-  "version": "0.1.0",
+  "version": "0.0.1",
   "fields": [
     {
-      "id": "APIKey",
+      "id": "API_KEY",
       "target": {
         "type": "environment",
         "name": "API_KEY"
