@@ -2,7 +2,7 @@ version: "3.5"
 services:
   metrics-exporter.dnp.dappnode.eth:
     build: ./
-    image: "metrics-exporter.dnp.dappnode.eth:0.0.1"
+    image: "metrics-exporter.dnp.dappnode.eth:1.0.0"
     restart: unless-stopped
     environment:
       API_KEY: ""

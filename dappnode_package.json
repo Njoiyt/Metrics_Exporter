@@ -1,7 +1,7 @@
 {
   "name": "metrics-exporter.dnp.dappnode.eth",
-  "version": "0.0.1",
-  "upstreamVersion": "v0.0.1",
+  "version": "1.0.0",
+  "upstreamVersion": "v0.1.0",
   "shortDescription": "Monitoring for Dappnode Machine",
   "description": "Beaconcha.in validator monitoring app for Dappnode, PRYSM ONLY",
   "type": "service",
