@@ -1,5 +1,5 @@
 {
-  "name": "metricsexporter.dnp.dappnode.eth",
+  "name": "metricsExporter.dnp.dappnode.eth",
   "version": "0.1.0",
   "description": "Beaconcha.in validator monitoring app for Dappnode, PRYSM ONLY",
   "type": "service",
