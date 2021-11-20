@@ -1,5 +1,5 @@
 {
-  "name": "metricsexporter.dnp.dappnode.eth",
+  "name": "metrics-exporter.dnp.dappnode.eth",
   "version": "0.0.1",
   "upstreamVersion": "v0.0.1",
   "shortDescription": "Monitoring for Dappnode Machine",
