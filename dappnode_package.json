@@ -5,7 +5,7 @@
   "shortDescription": "Monitoring for Dappnode Machine",
   "description": "Beaconcha.in validator monitoring app for Dappnode, PRYSM ONLY",
   "type": "service",
-  "author": "Original by gobitfly (https://github.com/gobitfly/eth2-client-metrics-exporter.git) Dappnode pkg created by the Gray Brothers",
+  "author": "Original by gobitfly (https://github.com/gobitfly/eth2-client-metrics-exporter.git) Dappnode pkg created by the Gray Brothers (XsN#9399 & Nsr#3427)",
   "categories": ["Developer tools"],
   "keywords": [
     "beaconcha.in,monitor,stats"
@@ -18,6 +18,11 @@
     "Brandon Gray <https://discordapp.com/users/XsN#9399> (https://github.com/vlcmstne)",
     "gobitfly <https://discordapp.com/users/Butta#8883> (https://github.com/gobitfly/eth2-client-metrics-exporter.git)"
   ],
+  "style": {
+    "featuredBackground": "linear-gradient(to right, #323131, #395353)",
+    "featuredColor": "white",
+    "featuredAvatarFilter": "invert(1)"
+  },
   "bugs": {
     "url": "https://github.com/Njoiyt/Metrics_Exporter/issues"
   },

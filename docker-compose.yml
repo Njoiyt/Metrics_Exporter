@@ -6,3 +6,4 @@ services:
     restart: unless-stopped
     environment:
       API_KEY: ""
+      MACHINE_NAME: ""
