@@ -9,15 +9,6 @@
       },
       "title": "API",
       "description": "Enter your API Key from Beaconcha.in to continue"
-    },
-    {
-      "id": "MACHINE_NAME",
-      "target": {
-        "type": "environment",
-        "name": "MACHINE_NAME"
-      },
-      "title": "Machine Name",
-      "description": "Enter your preferred machine name to continue, if left blank a default machine name will be used"
     }
   ]
 }
